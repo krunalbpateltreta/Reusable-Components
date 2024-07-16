@@ -1,0 +1,24 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "jotai-example-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/jotaiExample/JotaiExampleWebPart.js",
+          "manifest": "./src/webparts/jotaiExample/JotaiExampleWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "jquery": {
+      "path": "./node_modules/jquery/dist/jquery.min.js",
+      "globalName": "jQuery"
+    }
+  },
+  "localizedResources": {
+    "JotaiExampleWebPartStrings": "lib/webparts/jotaiExample/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}

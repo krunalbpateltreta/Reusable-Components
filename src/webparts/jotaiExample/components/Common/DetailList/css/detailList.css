@@ -1,0 +1,47 @@
+.boxCard .ms-List-cell:nth-child(even) .ms-DetailsRow {
+    background: #f2f2f2 !important;
+    font-family: Helvetica !important;
+}
+
+.boxCard .ms-List .ms-List-cell:nth-child(even) .ms-DetailsRow {
+    background: #f2f2f2 !important;
+    font-family: Helvetica !important;
+}
+
+.ms-DetailsRow-fields {
+    font-family: inherit;
+    font-size: 23px !important;
+    align-items: center;
+    font-family: Helvetica !important;
+}
+
+.ms-DetailsRow:hover {
+    background: #f7f7f7;
+}
+
+.ms-DetailsRow-cell {
+    font-size: 14px !important;
+    white-space: normal !important;
+}
+
+.ms-DetailsRow-cell.ms-DetailsRow-cellCheck {
+    display: flex;
+    align-items: center;
+}
+
+.ms-TextField-fieldGroup,
+.ms-BasePicker-text,
+.ms-BasePicker-text input {
+    height: 42px !important;
+    line-height: 42px !important;
+}
+
+.ms-FocusZone.ms-DetailsRow,
+.ms-DetailsRow {
+    min-height: 40px !important;
+}
+
+.fileIconImg {
+    width: 16px !important;
+    height: 16px !important;
+}

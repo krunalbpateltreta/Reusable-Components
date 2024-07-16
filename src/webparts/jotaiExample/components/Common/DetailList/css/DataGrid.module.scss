@@ -1,0 +1,19 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.dataGrid {
+  overflow: hidden;
+  color: "[theme:bodyText, default: #323130]";
+  color: var(--bodyText);
+
+  &.teams {
+    font-family: $ms-font-family-fallbacks;
+  }
+
+  .p_t_10 {
+    padding-top: 10px;
+  }
+
+  .p_b_20 {
+    padding-bottom: 20px;
+  }
+}

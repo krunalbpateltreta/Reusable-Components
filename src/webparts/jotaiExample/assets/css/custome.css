@@ -1,0 +1,340 @@
+textarea {
+    height: 75px;
+}
+
+
+
+.table-config .ms-TextField-fieldGroup {
+    border: 0 !important;
+    border-bottom: 2px solid #22646b !important;
+}
+
+.table-config .ms-TextField-fieldGroup:focus {
+    border: 1px solid #ced4da !important;
+}
+
+
+.ms-Grid-row {
+    margin: 0 -8px;
+    box-sizing: border-box;
+    zoom: 1;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.ms-Grid-col {
+    float: left;
+}
+
+.ms-Grid-col {
+    position: relative;
+    min-height: 1px;
+    padding-left: 8px;
+    padding-right: 8px;
+    box-sizing: border-box;
+}
+
+.course-catalog-section .ms-Grid-col:first-child {
+    padding-left: 0px !important;
+}
+
+.course-catalog-section .ms-Grid-col:last-child {
+    padding-right: 0px !important;
+}
+
+.course-catalog-section .ms-Grid-col {
+    padding-right: 30px;
+}
+
+
+
+.mb16 {
+    margin-bottom: 16px !important;
+}
+
+.table-title {
+    size: 16px;
+}
+
+.main-dashboard .table-title {
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.table-responsive {
+    border: 1px solid #cac9c9;
+    border-radius: 3px;
+    float: left;
+    width: 100%;
+}
+
+.custom-grid {
+    float: left;
+    width: 100%;
+}
+
+.custom-grid .ms-DetailsHeader {
+    padding-top: 0px !important;
+}
+
+.custom-grid .ms-DetailsHeader-cellName {
+    font-weight: normal;
+}
+
+.custom-grid .ms-List-cell {
+    border-bottom: 1px solid #cac9c9;
+}
+
+.custom-grid .ms-List-cell:hover {
+    background-color: #f1f1f1 !important;
+}
+
+.custom-grid .ms-List-cell .ms-DetailsRow .ms-DetailsRow-cell {
+    font-size: 14px !important;
+    color: #000 !important;
+}
+
+.custom-grid .ms-List-cell .ms-DetailsRow .ms-DetailsRow-cell .grid-course-img {
+    height: 100% !important;
+}
+
+.custom-grid .ms-List-cell .ms-DetailsRow .ms-DetailsRow-cell .grid-arrow-right {
+    height: 20px !important;
+    width: 20px !important;
+}
+
+.custom-grid .ms-List-cell .ms-DetailsRow {
+    background-color: transparent !important;
+}
+
+.custom-grid .ms-List-cell:nth-child(odd) {
+    background-color: #f1f1f1 !important;
+}
+
+
+.mt-12 {
+    margin-top: 12px;
+}
+
+.mt-15 {
+    margin-top: 15px;
+}
+
+.mt-8 {
+    margin-top: 8px;
+}
+
+.ml-2 {
+    margin-left: 4px;
+}
+
+.w-40 {
+    width: 400px;
+}
+
+.h-40 {
+    height: 400px;
+}
+
+.pl-10 {
+    padding-left: 10px;
+}
+
+.pt-5 {
+    padding-top: 5px;
+}
+
+.pb-5 {
+    padding-bottom: 5px;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.iconSpace {
+    display: flex;
+    /* gap: 10px; */
+}
+
+.ms-BasePicker-text {
+    min-height: 0 !important;
+}
+
+.ms-TextField-fieldGroup {
+    height: 35px !important;
+}
+
+.col-2 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+
+.pl-4 {
+    padding-left: 4px;
+}
+
+.pt-3 {
+    padding-top: 3px;
+}
+
+/* .showingresults .pb-10 {
+    padding-bottom: 10px;
+} */
+
+.btnCommon {
+    background-color: #22646b !important;
+    box-shadow: 0 1px 3px #0000002b;
+    color: #fff !important;
+    text-decoration: none !important;
+    border-color: #22646b !important;
+    padding: 12px 24px !important;
+
+    &:hover {
+        background-color: #fff !important;
+        color: #22646b !important;
+    }
+}
+
+.me2 {
+    margin-right: 0.5rem !important;
+}
+
+
+.showingresults {
+    margin-top: 16px;
+}
+
+.custom-grid .ms-DetailsHeader-cellName {
+    font-weight: 700;
+}
+
+.interviewScheduled {
+    /* position: absolute; */
+    width: 100%;
+    top: 30px;
+}
+
+.renge-group {
+    display: flex;
+    position: relative;
+}
+
+
+ul.interviewer li {
+    list-style-type: disclosure-closed !important;
+}
+
+.vieweditIcon {
+    background: #000;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    font-size: 14px;
+    margin: 0 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 5px 13px #0000003d;
+    cursor: pointer;
+}
+
+.iconTray {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    display: flex;
+}
+
+.pt_23 {
+    padding-top: 23px;
+}
+
+.cardTitle {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cardSubTitle {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+
+
+
+.mb3 {
+    margin-bottom: 1rem !important;
+}
+
+.dFlex {
+    display: flex !important;
+}
+
+.justifyContentBetween {
+    justify-content: space-between;
+}
+
+.dateTopPosition {
+    position: absolute;
+    top: 4px;
+}
+
+.p10 {
+    padding: 10px;
+}
+
+.pb-15 {
+    padding-bottom: 15px;
+}
+
+.ml-340 {
+    margin-left: 340px;
+}
+
+
+
+.inner {
+    border: 2px solid red;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 1rem;
+    text-align: center;
+    color: green;
+}
+
+.brtop {
+    border-top: 1px solid black;
+}
+
+.brbottom {
+    border-bottom: 1px solid black;
+}
+
+.brright {
+    border-right: 1px solid black;
+}
+
+.brleft {
+    border-left: 1px solid black;
+}
+
+.mgbtn15 {
+    margin-bottom: 15px;
+}
+
+.txtcenter {
+    text-align: center;
+}
+
+.labelSize {
+    font-size: 16px !important;
+}
+
+.popupTitle {
+    color: #22646b !important;
+}

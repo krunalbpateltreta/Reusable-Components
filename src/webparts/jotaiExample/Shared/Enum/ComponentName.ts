@@ -1,0 +1,21 @@
+export enum ComponentName {
+    Dashboard = "Dashboard",
+    Clients = "Clients",
+    Documents = "Documents",
+    AccessDenied = "Access Denied",
+    AddClient = "Add Client",
+    ViewClientDetail = "View Client Detail",
+    ViewClientDetailPage = "View Client Detail Page",
+    ViewClient = "Clients",
+    AddDocuments = "Add Documents",
+    ViewDocuments = "Documents",
+    ImportClient = "Import Client",
+    Master = "Master",
+    DataGrid = "Datagrid",
+    MemorizedDataGrid = "Memorized Datagrid",
+    HeaderFilter = "Header Filter",
+    ShimmerHeaderFilter = "Shimmer Header Filter",
+    KenDoPDF = "Ken Do PDF",
+    ZodExample = "ZodExample",
+
+}

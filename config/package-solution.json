@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "jotai-example-client-side-solution",
+    "id": "fbd88a0e-9684-447b-a388-81d2da5291fb",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "JotaiExample description"
+      },
+      "longDescription": {
+        "default": "JotaiExample description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "jotai-example Feature",
+        "description": "The feature that activates elements of the jotai-example solution.",
+        "id": "9c5a5ce6-f052-4d7c-8769-51a73cdf30fe",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/JotaiExample.sppkg"
+  }
+}
